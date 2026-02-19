@@ -2,9 +2,6 @@
 
 Processes & services: rerun 2 commands from Day 04/05 (e.g., ps, systemctl status, journalctl -u <service>); jot what you observed today.
 
-File skills: practice 3 quick ops from Days 06–11 (e.g., echo >>, chmod, chown, ls -l, cp, mkdir).
-
-Cheat sheet refresh: skim your Day 03 commands—highlight 5 you’d reach for first in an inciden
 
 # Task:1
 
