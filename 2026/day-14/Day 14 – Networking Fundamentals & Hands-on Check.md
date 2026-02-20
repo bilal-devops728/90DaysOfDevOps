@@ -36,7 +36,7 @@ Capture a mini network check for a target host/service
 
 - Network layers  : Physical +data link layer
 
-- ### prtoclos placement
+- ### Protocols placement
 - Application layer : DNS,DHCP,HTTP,HTTPS,FTP,TFTP,SMTP,SNMP.
 
 - Transport layer   : TCP/UDP  TCP:it is responsible for segement pf data packets,retransmission packets,non realtime,and udp is responsible for real time data like zoom meetings,live calls,and no retransmission of data packets
@@ -46,22 +46,21 @@ Capture a mini network check for a target host/service
 - Netwokr access layer : ethernet,wifi
 
   # Practical example
+  
   - curl https://trainwithshubham.com
-  - how TCP/IP works
+    ### How TCP/IP works
+ 
   - step:1 APPLICATION LAYER
-   
-  - curl creates HTTPS request
+  
+   curl creates HTTPS request
+
+   STEP:2 TRANSPORT LAYERS: 
+    A TCP connection is established .TCP performs a  3-way handshake.
     
-    - STEP:2 TRANSPORT LAYERS:
-    - 
-    - A TCP connection is established .TCP performs a  3-way handshake
-   
-    - STEP:3 INTERNET LAYER: Protoclos ip ,add source & destination ip
-   
-    - STEP:5  DATA LINK LAYER
-    
-    - frame created.send through ethernet/wifi
-   
+   STEP:3 INTERNET LAYER: Protoclos ip ,add source & destination ip.
+  
+  STEP:4  DATA LINK LAYER
+   frame created.send through ethernet/wifi
     - ### 
    One real example: “curl https://example.com = App layer over TCP over IP”
     - <img width="1366" height="768" alt="Screenshot (236)" src="https://github.com/user-attachments/assets/ce2ccf05-317e-4deb-8738-58e1990afc56" />
@@ -81,10 +80,6 @@ Capture a mini network check for a target host/service
 - <img width="1366" height="768" alt="Screenshot (239)" src="https://github.com/user-attachments/assets/e237c1ef-1ea4-486a-ba89-74efd224aaa0" />
 
 - Observation: 9 packets transmitted and 9 receiver . 0 packets loss and latency time is 8188ms. 
-
-- ##  Path: traceroute <target> (or tracepath) — note any long hops/timeouts.
-
-- ??????
 
 - ## orts: ss -tulpn (or netstat -tulpn) — list one listening service and its port.net
 
@@ -112,4 +107,4 @@ Capture a mini network check for a target host/service
 ## From the same machine, test it: nc -zv localhost <port> (or curl -I http://localhost:<port>).
 
 <img width="1366" height="768" alt="Screenshot (246)" src="https://github.com/user-attachments/assets/4156af17-06b9-4dc9-a256-9df402922a2c" />
-- connection succeeded.
+### connection succeeded.
