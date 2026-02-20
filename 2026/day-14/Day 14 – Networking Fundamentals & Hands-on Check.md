@@ -60,8 +60,8 @@ Capture a mini network check for a target host/service
   
   STEP:4  DATA LINK LAYER
    frame created.send through ethernet/wifi
-    - ### 
-   One real example: “curl https://example.com = App layer over TCP over IP”
+  
+  - One real example: “curl https://example.com = App layer over TCP over IP”
     - <img width="1366" height="768" alt="Screenshot (236)" src="https://github.com/user-attachments/assets/ce2ccf05-317e-4deb-8738-58e1990afc56" />
 
 # Hands-on Checklist   (run these; add 1–2 line observations
