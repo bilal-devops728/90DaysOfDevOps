@@ -44,7 +44,6 @@ Capture a mini network check for a target host/service
 - Internet layer : IP,ARP,ICMP
 
 - Netwokr access layer : ethernet,wifi
-
   # Practical example
   
   - curl https://trainwithshubham.com
