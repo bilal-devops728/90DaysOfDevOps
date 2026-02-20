@@ -43,14 +43,14 @@ Capture a mini network check for a target host/service
 
 - Internet layer : IP,ARP,ICMP
 
-- Netwokr access layer : ethernet,wifi
+- Netwokr access layer : ethernet,wifi.
+ 
   # Practical example
   
   - curl https://trainwithshubham.com
     ### How TCP/IP works
  
-  - step:1 APPLICATION LAYER
-  
+   step:1 APPLICATION LAYER
    curl creates HTTPS request
 
    STEP:2 TRANSPORT LAYERS: 
