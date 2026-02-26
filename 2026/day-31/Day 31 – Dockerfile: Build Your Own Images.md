@@ -39,4 +39,4 @@ WORKDIR — set working directory
 
 EXPOSE — document the port
 
-CMD — default command
+CMD — default command g
