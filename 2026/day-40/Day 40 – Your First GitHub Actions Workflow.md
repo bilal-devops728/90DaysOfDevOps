@@ -27,3 +27,35 @@ Step 2: Print Hello from GitHub Actions!
 Push it. Go to the Actions tab on GitHub and watch it run.
 
 Verify: Is it green? Click into the job and read every step.
+
+
+
+# Task 3: Understand the Anatomy
+
+on:
+jobs:
+runs-on:
+steps:
+uses:
+run:
+name: (on a step)
+- on: this decide when pipeline will be trigger. e.g= push,pupp
+- jobs: pipeline have multiple jobs every job have different enviroments.
+- runs-on: which machine run this.  e.g= ubuntu-latest
+- steps:command inside the job.
+- name: it is readable for step
+- run: shell commands execute.
+
+  Task 4: Add More Steps
+Update hello.yml to also:
+
+Print the current date and time
+
+Print the name of the branch that triggered the run (hint: GitHub provides this as a variable)
+
+List the files in the repo
+
+Print the runner's operating system
+
+Push again — watch the new run.
+  
