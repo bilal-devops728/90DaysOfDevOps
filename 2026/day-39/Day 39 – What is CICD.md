@@ -82,6 +82,9 @@ output produced by pipelines
 
 - # Task 4: Draw a Pipeline
 
+![c4db0ae6-38d2-4747-8d58-3f062b61b491](https://github.com/user-attachments/assets/c8f1d38f-9b10-4d6c-83fe-181fc3889598)
+
+
 - # Task 5: Explore in the Wild
 Open any popular open-source repo on GitHub (Kubernetes, React, FastAPI — pick one you know)
 
