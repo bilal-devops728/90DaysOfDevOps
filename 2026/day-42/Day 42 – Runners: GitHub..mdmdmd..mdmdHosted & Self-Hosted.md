@@ -42,13 +42,42 @@ Git version
 Write in your notes: Why does it matter that runners come with tools pre-installed?
 
 <img width="1366" height="768" alt="Screenshot (283)" src="https://github.com/user-attachments/assets/099a87e8-4122-4c7a-a78a-9911be3a7df3" />
- ## Importance of pre-installed tools
- - save time
- - yaml file clean and easy to maintainable
- - faster build and test.
 
-    # Task 3: Set Up a Self-Hosted Runner
-
-
+ ##  Importance of pre-installed tools
  
+ - save time
+  
+ - yaml file clean and easy to maintainable
+
+  
+ - faster build and test.
+   
+
+ # Task 3: Set Up a Self-Hosted Runner
+
+
+ <img width="1366" height="768" alt="Screenshot (284)" src="https://github.com/user-attachments/assets/8eb51d53-a4e6-4f37-91fb-9f99821dbaf2" />
+ 
+ - successfully created my selfhosted runner.
+
+   # ask 4: Use Your Self-Hosted Runner
+
+   Create .github/workflows/self-hosted.yml
+   
+Set runs-on: self-hosted
+
+Add steps that:
+
+Print the hostname of the machine (it should be YOUR machine/VM)
+
+Print the working directory
+
+Create a file and verify it exists on your machine after the run
+
+Trigger it and watch it run on your own hardware
+
+Verify: Check your machine — is the file there?
+
+
+
 
