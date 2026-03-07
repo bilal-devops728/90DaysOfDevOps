@@ -42,4 +42,13 @@ Git version
 Write in your notes: Why does it matter that runners come with tools pre-installed?
 
 <img width="1366" height="768" alt="Screenshot (283)" src="https://github.com/user-attachments/assets/099a87e8-4122-4c7a-a78a-9911be3a7df3" />
+ ## Importance of pre-installed tools
+ - save time
+ - yaml file clean and easy to maintainable
+ - faster build and test.
+
+    # Task 3: Set Up a Self-Hosted Runner
+
+
+ 
 
