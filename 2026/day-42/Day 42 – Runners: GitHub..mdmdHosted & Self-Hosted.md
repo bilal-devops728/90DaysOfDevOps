@@ -28,9 +28,18 @@ Write in your notes: What is a GitHub-hosted runner? Who manages it?
   # Task 2: Explore What's Pre-installed
 
  1)  On the ubuntu-latest runner, run a step that prints:
+ 
 Docker version
+
 Python version
+
 Node version
+
 Git version
-2) Look up the GitHub docs for the full list of pre-installed software on ubuntu-latest
+
+4) Look up the GitHub docs for the full list of pre-installed software on ubuntu-latest
+   
 Write in your notes: Why does it matter that runners come with tools pre-installed?
+
+<img width="1366" height="768" alt="Screenshot (283)" src="https://github.com/user-attachments/assets/099a87e8-4122-4c7a-a78a-9911be3a7df3" />
+
